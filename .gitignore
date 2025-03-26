@@ -1,0 +1,13 @@
+# Fichiers d'environnement sensibles
+.env
+
+# Dépendances (si tu veux exclure node_modules)
+node_modules/
+
+# Fichiers de résultats
+suspects/
+scanned/
+
+# Fichiers système / éditeur
+.DS_Store
+*.log
