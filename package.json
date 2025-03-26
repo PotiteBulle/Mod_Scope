@@ -1,0 +1,16 @@
+{
+  "name": "mod_scope",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "@atproto/api": "^0.14.10",
+    "dotenv": "^16.4.7"
+  }
+}
