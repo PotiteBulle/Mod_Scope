@@ -1,13 +1,24 @@
-# Fichiers d'environnement sensibles
+# Fichier d'environnement
 .env
 
-# Dépendances (si tu veux exclure node_modules)
+# Dossiers de sortie Bun (si tu utilises `bun build`)
+dist/
+build/
+
+# Modules installés par Bun
+bun.lockb
 node_modules/
 
-# Fichiers de résultats
+# Résultats du système Mod_Scope
 suspects/
 scanned/
 
-# Fichiers système / éditeur
+# Fichiers systèmes ou temporaires
 .DS_Store
 *.log
+*.tmp
+
+# Éventuels caches d'éditeurs
+.vscode/
+.idea/
+*.swp
