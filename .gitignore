@@ -6,7 +6,7 @@ dist/
 build/
 
 # Modules installés par Bun
-bun.lockb
+bun.lock
 node_modules/
 
 # Résultats du système Mod_Scope
